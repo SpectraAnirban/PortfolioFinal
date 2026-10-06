@@ -1,5 +1,5 @@
 // Converts assets_folder/*.png into web-ready WebP files in public/works.
-// GrapheWeddings4 has a personal address + phone in the "Saved Addresses" card, which is blurred.
+// GrapheWeddings4 has a personal address + phone in the "Saved Addresses" card, which is blurred.  
 import sharp from 'sharp';
 import { readdir, mkdir } from 'node:fs/promises';
 import path from 'node:path';
